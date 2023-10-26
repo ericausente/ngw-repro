@@ -180,6 +180,6 @@ kubectl delete -f https://github.com/kubernetes-sigs/gateway-api/releases/downlo
 ```
 
 
-Deploy NGINX Gateway Fabric using Helm
+## Deploy NGINX Gateway Fabric using Helm
 
 To deploy NGINX Gateway Fabric using Helm, please follow the instructions on this [page](https://github.com/nginxinc/nginx-gateway-fabric/blob/v1.0.0/deploy/helm-chart/README.md)
