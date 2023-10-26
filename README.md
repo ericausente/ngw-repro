@@ -178,3 +178,8 @@ Warning: This command will delete all corresponding custom resources in your clu
 ```
 kubectl delete -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v0.8.1/standard-install.yaml
 ```
+
+
+Deploy NGINX Gateway Fabric using Helm
+
+To deploy NGINX Gateway Fabric using Helm, please follow the instructions on this [page](https://github.com/nginxinc/nginx-gateway-fabric/blob/v1.0.0/deploy/helm-chart/README.md)
