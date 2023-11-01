@@ -183,3 +183,7 @@ kubectl delete -f https://github.com/kubernetes-sigs/gateway-api/releases/downlo
 ## Deploy NGINX Gateway Fabric using Helm
 
 To deploy NGINX Gateway Fabric using Helm, please follow the instructions on this [page](https://github.com/nginxinc/nginx-gateway-fabric/blob/v1.0.0/deploy/helm-chart/README.md)
+
+
+### If you intent to execute the nginx -T command (to verify the generated configuration) inside the specific nginx container of the NGF pod
+kubectl exec  my-release-nginx-gateway-fabric-7d845c777f-fxkqh -n nginx-gateway -c nginx -- nginx -T
