@@ -186,4 +186,6 @@ To deploy NGINX Gateway Fabric using Helm, please follow the instructions on thi
 
 
 ### If you intent to execute the nginx -T command (to verify the generated configuration) inside the specific nginx container of the NGF pod
+```
 kubectl exec  my-release-nginx-gateway-fabric-7d845c777f-fxkqh -n nginx-gateway -c nginx -- nginx -T
+```
